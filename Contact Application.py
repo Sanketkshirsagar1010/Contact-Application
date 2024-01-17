@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 class ContactApp:
-    def _init_(self, myroot):
+    def __init__(self, myroot):
         self.myroot = myroot
         self.myroot.title("Contact Manager")
         self.contacts = []
